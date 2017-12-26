@@ -14,7 +14,7 @@ RUN apt-get -qq update && apt-get -qq -y install curl bzip2 \
     && echo "5551f01f436b6409d467412c33e12ecc4f43b5e029290870f8fdeca403c274e6  /tmp/miniconda.sh" | sha256sum -c - \
     && bash /tmp/miniconda.sh -bfp $CONDA_DIR \
     && rm -rf /tmp/miniconda.sh \
-    && conda install -y python=3 \
+    && conda install -y python=3.6 \
     && conda update conda \
     && apt-get -qq -y remove curl bzip2 \
     && apt-get -qq -y autoremove \
