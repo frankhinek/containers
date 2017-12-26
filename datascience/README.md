@@ -11,11 +11,11 @@ Currently I maintain a single data science Docker container image:
 
  This container is published to [Docker Hub](https://hub.docker.com/r/frankhinek/datascience/).
 
- ## Running the container
+## Running the container
 
 Run the container using
 
-    $ docker run -it -p 8888:8888 gcr.io/tensorflow/tensorflow
+    $ docker run -it frankhinek/datascience
 
 ## Rebuilding the containers
 
