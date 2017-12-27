@@ -8,7 +8,8 @@ projects.
 Currently, the following container images are maintained:
 
 * `frankhinek/datascience` - [Details](https://github.com/frankhinek/containers/tree/master/datascience)
-* `frankhinek/keras-tf` - [Details]()
+* `frankhinek/keras-tf-cpu` - [Details](https://github.com/frankhinek/containers/tree/master/keras-tf-cpu)
+* `frankhinek/keras-tf-gpu` - [Details](https://github.com/frankhinek/containers/tree/master/keras-tf-gpu)
 * `frankhinek/tensorflow-cpu` - [Details](https://github.com/frankhinek/containers/tree/master/tensorflow-cpu)
 * `frankhinek/tensorflow-gpu` - [Details](https://github.com/frankhinek/containers/tree/master/tensorflow-cpu)
 
