@@ -17,7 +17,7 @@ Run the container using
 
     $ docker run -it frankhinek/datascience
 
-## Rebuilding the containers
+## Rebuilding the container
 
 Just pick the `Dockerfile` associated with this container, and run:
 
